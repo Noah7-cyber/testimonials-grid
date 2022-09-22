@@ -12,7 +12,7 @@ body{
 }
 main{
     display: grid;
-    width: clamp(60vw, 80vw, 95vw);
+    width: clamp(60vw, 70vw, 85vw);
     place-self: center;   
     grid-gap: 1.7rem;
     grid-template-columns: repeat(4, 1fr);
@@ -127,7 +127,7 @@ p, .verified{
         transform: translateX(30%);
         display: grid;
         grid-template-columns: repeat(8, 1fr);
-        grid-template-columns: repeat(2, 22%);
+        grid-template-columns: repeat(2, 25%);
         grid-template-areas: 
         "a a"
         "a a"
